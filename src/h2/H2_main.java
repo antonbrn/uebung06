@@ -8,7 +8,7 @@ public class H2_main {
 	static int[] d = { 1, 3, 4, 0};
 
 	public static void main(String[] args) {
-		System.out.println(compareArrays(c, d));
+		System.out.println(compareArrays(b, d));
 	}
 
 	public static boolean compareArrays(int[] a, int[] b) {
@@ -25,3 +25,4 @@ public class H2_main {
 		return true;
 	}
 }
+

@@ -4,11 +4,11 @@ public class H3_main {
 
 	static int[] a = { 0, 2, 1, 3, 4 };
 	static int[] b = { 4, 3, 2, 1, 0 };
-	static int[] c = { 1, 1, 3, 0 };
-	static int[] d = { 1, 3, 4, 0 };
+	static int[] c = { 1, 1, 3, 0, 4, 5 };
+	static int[] d = { 1, 1, 4, 0, 3, 5 };
 
 	public static void main(String[] args) {
-		System.out.println(compareArraysVal(a, b));
+		System.out.println(compareArraysVal(c, d));
 	}
 
 	public static boolean compareArraysVal(int[] a, int[] b) {
